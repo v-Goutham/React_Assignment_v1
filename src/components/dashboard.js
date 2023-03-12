@@ -20,7 +20,7 @@ function Dashboard() {
     useEffect(() => {
         const timeChange = setInterval(() => {
             setQuery(query => query + 10)
-        }, 20000);
+        }, 10000);
 
         return () => clearInterval(timeChange);
 
