@@ -4,7 +4,7 @@ import Dashboard from './components/dashboard'
 import './App.css';
 
 function App() {
-  // const Dashboard = (() => import("./components/dashboard"));
+  
   return (
     <Router>
       <Routes>
